@@ -68,6 +68,23 @@ public class LearnArrayList {
             System.out.println("Iterator it says Good Morning "+it.next());
         }
 
+        ArrayList<Integer>nos = new ArrayList<>();
+        nos.add(7);
+        nos.add(8);
+        System.out.println(nos);
+
+        for (Integer x: nos
+             ) {
+            System.out.println(x);
+
+        }
+
+        Iterator<Integer> itr = nos.iterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
+
 
     }
 }
