@@ -26,20 +26,20 @@ public class StringMethods {
 
         System.out.println("check if name endswith desired string - "+name.endsWith("z"));
 
-        System.out.println(name.charAt(6));
+        System.out.println("find char at desired index - "+name.charAt(6));
 
-        System.out.println(name.indexOf("S"));
+        System.out.println("find index of desired string - "+name.indexOf("S"));
 
-        System.out.println(name.lastIndexOf("h"));
+        System.out.println("find index of desired string traversing from the end of string - "+name.lastIndexOf("h"));
 
-        System.out.println(name.equals(newName));
+        System.out.println("check if two compared string is equal or not (here .equals() check object) - "+name.equals(newName));
 
-        System.out.println(name.toLowerCase().equals(newName));
-        System.out.println(name.toLowerCase() == newName);
+        System.out.println("check if two compared string is equal or not (here .equals() check object) - "+name.toLowerCase().equals(newName));
+        System.out.println("check if two compared string is equal or not (here == check refrences are same or not) - "+name.toLowerCase() == newName);
 
-        System.out.println(name.equalsIgnoreCase(newName));
+        System.out.println("check if two compared string is equal or not and dont look for the case sensitive either - "+name.equalsIgnoreCase(newName));
 
-        System.out.println("name".compareTo(newName));
+        System.out.println(name.compareTo(newName));
 
 
 
