@@ -1,11 +1,13 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class LearnArrayList {
     public static void main(String[] args) {
 
         // defined new arraylist of String type
         ArrayList<String> studentName = new ArrayList<>();
+        List<String> nameOfStudent = new ArrayList<>();
 
         // appending new element to the Arraylist
         // to remove and add element TC is of O(n)
@@ -31,7 +33,7 @@ public class LearnArrayList {
         System.out.println(studentName);
 
         // defined a new arraylist
-        ArrayList<String> childName = new ArrayList<>();
+        ArrayList<String> childName = new ArrayList<String>();
         childName.add("Bhavesh");
         childName.add("Om Sahu");
         System.out.println(childName);
@@ -71,6 +73,8 @@ public class LearnArrayList {
         ArrayList<Integer>nos = new ArrayList<>();
         nos.add(7);
         nos.add(8);
+        System.out.println(nos);
+        nos.remove(0);
         System.out.println(nos);
 
         for (Integer x: nos

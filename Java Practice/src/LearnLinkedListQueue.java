@@ -17,7 +17,7 @@ public class LearnLinkedListQueue {
         numbers.offer(56);
 
         //print all ele of queue
-        System.out.println(numbers);
+//        System.out.println(numbers);
 
         // to remove ele from the queue we can use poll() function
         numbers.poll(); //removes first ele in the queue

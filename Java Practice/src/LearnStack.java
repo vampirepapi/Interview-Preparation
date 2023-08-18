@@ -12,12 +12,14 @@ public class LearnStack {
         animals.push("rabbit");
 
         System.out.println(animals);
-
-        // to peek which ele is present at the the top of stack we use peek function
+//
+//        // to peek which ele is present at the the top of stack we use peek function
         System.out.println(animals.peek());
-
+//
         //popping elements from the stack
         System.out.println(animals.pop());
+        System.out.println(animals.peek());
+        System.out.println(animals.contains("Lion"));
 
     }
 }
