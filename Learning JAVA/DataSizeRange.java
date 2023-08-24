@@ -16,5 +16,9 @@ class DataSizeRange{
 		System.out.println("Double Max: "+ Double.MAX_VALUE);
 		System.out.println("Double Size(bits): "+ Double.SIZE);
 		System.out.println("Double Bytes: "+ Double.BYTES);
+
+		int a = 5;
+		List<String> names = new ArrayList<>();
+		names.add("abhinav bhaiya");
 	}
 }
